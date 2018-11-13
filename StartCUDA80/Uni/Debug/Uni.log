@@ -1,0 +1,17 @@
+﻿  Compiling CUDA source file uni.cu...
+  
+  C:\Users\mikhail\Documents\Visual Studio 2015\Projects\try-to-work-with-CUDA\StartCUDA80\Uni>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o Debug\uni.cu.obj "C:\Users\mikhail\Documents\Visual Studio 2015\Projects\try-to-work-with-CUDA\StartCUDA80\Uni\uni.cu" 
+C:/Users/mikhail/Documents/Visual Studio 2015/Projects/try-to-work-with-CUDA/StartCUDA80/Uni/uni.cu(25): warning : variable "d_data" was declared but never referenced
+C:/Users/mikhail/Documents/Visual Studio 2015/Projects/try-to-work-with-CUDA/StartCUDA80/Uni/uni.cu(26): warning : variable "err" was declared but never referenced
+C:/Users/mikhail/Documents/Visual Studio 2015/Projects/try-to-work-with-CUDA/StartCUDA80/Uni/uni.cu(25): warning : variable "d_data" was declared but never referenced
+C:/Users/mikhail/Documents/Visual Studio 2015/Projects/try-to-work-with-CUDA/StartCUDA80/Uni/uni.cu(26): warning : variable "err" was declared but never referenced
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  uni.cu
+C:/Users/mikhail/Documents/Visual Studio 2015/Projects/try-to-work-with-CUDA/StartCUDA80/Uni/uni.cu(25): warning C4101: 'd_data': unreferenced local variable
+C:/Users/mikhail/Documents/Visual Studio 2015/Projects/try-to-work-with-CUDA/StartCUDA80/Uni/uni.cu(26): warning C4101: 'err': unreferenced local variable
+  Uni.vcxproj -> C:\Users\mikhail\Documents\Visual Studio 2015\Projects\try-to-work-with-CUDA\StartCUDA80\Debug\Uni.exe
+  Uni.vcxproj -> C:\Users\mikhail\Documents\Visual Studio 2015\Projects\try-to-work-with-CUDA\StartCUDA80\Debug\Uni.pdb (Full PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "C:\Users\mikhail\Documents\Visual Studio 2015\Projects\try-to-work-with-CUDA\StartCUDA80\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart32_80.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart64_80.dll
+  Скопировано файлов:         2.
