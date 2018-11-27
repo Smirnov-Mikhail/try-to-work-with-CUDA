@@ -1,0 +1,7 @@
+﻿  stdafx.cpp
+  testc++.cpp
+  Generating code
+  All 15 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  testc++.vcxproj -> C:\Users\mikhail\Documents\Visual Studio 2015\Projects\try-to-work-with-CUDA\StartCUDA80\Release\testc++.exe
+  testc++.vcxproj -> C:\Users\mikhail\Documents\Visual Studio 2015\Projects\try-to-work-with-CUDA\StartCUDA80\Release\testc++.pdb (Full PDB)
